@@ -6,6 +6,12 @@
 import Table from '../components/table.vue';
 import { reactive } from 'vue';
 let stateTable = {
+  columns: [
+    {
+      prop: 'name',
+      
+    },
+  ],
   data: [
     {
       date: '2016-05-03',
